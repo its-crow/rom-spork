@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rom-spork"
+version = "1.0.0"
+description = "ROM Collection Organizer for RetroDECK - Cyberpunk Terminal Interface"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "rom-spork-dev"},
+]
+
+[project.scripts]
+rom-spork = "rom_spork:main"
+
+[tool.setuptools]
+py-modules = ["rom_spork"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
