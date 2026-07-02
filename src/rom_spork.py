@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 ROM‑SPORK – A retro‑style Windows desktop application to organize ROMs into a RetroDECK folder.
-Author: ChatGPT
 """
 
 import os
