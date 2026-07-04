@@ -1,1 +1,6 @@
-# No external dependencies required – uses only the Python standard library.
+colorama==0.4.6
+customtkinter==6.0.0
+darkdetect==0.8.0
+packaging==26.2
+Send2Trash==2.1.0
+tqdm==4.68.3
